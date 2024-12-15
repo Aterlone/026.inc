@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+p {
+    font-size: 1.125rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+.navbar {
+    background-color: #ffffff !important;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.navbar-brand #brand-text {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: black;
+}
+
+.nav-item {
+    margin-left: 1rem;
+}
+
+.nav-link {
+    color: rgb(0, 0, 0) !important;
+    font-size: 1.125rem;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #f8f9fa !important;
+}
+
+/* Section Styling */
+section {
+    padding: 60px 0;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+
+main {
+    width: 100vw;
+    padding: 10vh;
+}
+
+#about,
+#projects,
+#services,
+#contact {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* About Section Styling */
+#about {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.353), rgba(0, 0, 0, 0.905)), url("../images/1.jpg");
+    background-size: cover;
+    /* Dark gray background for a strong contrast */
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+    transform: translateY(0);
+    animation: floatEffect 6s ease-in-out infinite;
+    transition: transform 0.3s ease-in-out;
+    color: white;
+}
+
+#about h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 3rem;
+    color: white;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+    /* More prominent text shadow */
+}
+
+#about p {
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #d1d1d1;
+    /* Lighter gray for text */
+    font-size: 1.25rem;
+    line-height: 1.8;
+    margin-top: 20px;
+    max-width: 900px;
+}
+
+/* Floating effect */
+@keyframes floatEffect {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+#about:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2), 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* General Section Styling for Other Sections */
+#projects,
+#services,
+#contact {
+    background-color: #f1f3f5;
+    /* Light gray background */
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#projects h1,
+#services h1,
+#contact h1 {
+    color: #343a40;
+    /* Dark gray */
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.container p {
+    color: #6c757d;
+    font-size: 1.1rem;
+}
+
+/* Hover effect for other sections */
+#projects:hover,
+#services:hover,
+#contact:hover {
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15), 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .nav-item {
+        margin: 0.5rem 0;
+    }
+
+    section {
+        padding: 40px 20px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    /* Adjusting section padding and font size for smaller screens */
+    #about,
+    #projects,
+    #services,
+    #contact {
+        padding: 30px;
+    }
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer a {
+    color: #f8f9fa;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #007bff;
+}
