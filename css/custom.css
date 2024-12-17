@@ -63,7 +63,12 @@ section {
 
 main {
     width: 100vw;
-    padding: 10vh;
+
+    padding: 2vh;
+
+    @media (min-width: 500px) {
+        padding: 10vh;
+    }
 }
 
 #about,
