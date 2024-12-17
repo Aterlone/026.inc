@@ -73,7 +73,8 @@ main {
 
 #about,
 #projects,
-#services {
+#services,
+#testimonials {
     background-color: #ffffff;
     border-radius: 10px;
     padding: 40px;
@@ -134,7 +135,8 @@ main {
 
 /* General Section Styling for Other Sections */
 #projects,
-#services {
+#services,
+#testimonials {
     background-color: #f1f3f5;
     /* Light gray background */
     padding: 50px;
@@ -153,7 +155,8 @@ main {
 
 #projects h1,
 #services h1,
-#contact h1 {
+#contact h1,
+#testimonials h1 {
     color: #343a40;
     /* Dark gray */
     font-size: 2.5rem;
@@ -167,7 +170,8 @@ main {
 
 /* Hover effect for other sections */
 #projects:hover,
-#services:hover {
+#services:hover,
+#testimonials:hover {
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15), 0 8px 16px rgba(0, 0, 0, 0.1);
 }
 
