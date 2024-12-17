@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f8f9fa;
+    background-color: #f1f1f1;
     color: #333;
 }
 
@@ -105,7 +105,7 @@ main {
 
 #about p {
     font-family: 'Helvetica Neue', sans-serif;
-    color: #d1d1d1;
+    color: #ececec;
     /* Lighter gray for text */
     font-size: 1.25rem;
     line-height: 1.8;
@@ -137,7 +137,7 @@ main {
 #projects,
 #services,
 #testimonials {
-    background-color: #f1f3f5;
+    background-color: #fafafa;
     /* Light gray background */
     padding: 50px;
     border-radius: 10px;
@@ -145,11 +145,11 @@ main {
 }
 
 #services {
-    background-color: #f1f1f1;
+    background-color: #f4f4f4;
 }
 
 #contact {
-    background-color: #f8f9fa;
+    background-color: #f1f1f1;
     text-align: center;
 }
 
