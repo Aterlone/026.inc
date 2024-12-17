@@ -8,6 +8,9 @@ body {
     font-family: 'Arial', sans-serif;
     background-color: #f1f1f1;
     color: #333;
+
+    background-image: linear-gradient(rgba(158, 158, 158, 0.453), rgba(0, 0, 0, 0.605)), url("../images/9.webp");
+    background-size: cover;
 }
 
 h1 {
@@ -23,13 +26,13 @@ p {
 }
 
 .navbar {
-    background-color: #ffffff !important;
+    background-color: transparent !important;
 }
 
 .navbar-brand {
     display: flex;
     align-items: center;
-    color: white;
+    color: rgb(130, 2, 2);
 }
 
 .navbar-brand #brand-text {
@@ -149,9 +152,10 @@ main {
 }
 
 #contact {
-    background-color: #f1f1f1;
+    background-color: transparent;
     text-align: center;
 }
+
 
 #projects h1,
 #services h1,
@@ -163,9 +167,17 @@ main {
     margin-bottom: 1rem;
 }
 
+#contact h1 {
+    color: rgb(229, 229, 229);
+}
+
 .container p {
     color: #6c757d;
     font-size: 1.1rem;
+}
+
+#contact p {
+    color: rgb(204, 203, 203);
 }
 
 /* Hover effect for other sections */
